@@ -1,0 +1,27 @@
+Hosting:
+1. Linux
+
+
+
+CI/CD:
+1. Ansible - install environment
+2. Jenkins - pipeline for build, testing and deploy
+3. Docker - one requirements
+
+
+
+Code version control:
+1. Git
+2. GitHub
+
+
+
+IDE:
+1. Visual Studio 2022
+2. Jet Brains Toolbox (Android Studio)
+
+
+
+Programming Languages:
+1. C#
+2. Java for Android
