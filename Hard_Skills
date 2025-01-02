@@ -1,19 +1,6 @@
-Hosting:
-1. Linux
-
-
-
-CI/CD:
-1. Ansible - install environment
-2. Jenkins - pipeline for build, testing and deploy source code from GitHub
-3. Docker - one requirements
-
-
-
-Code version control:
-1. Git
-2. GitHub
-
+Programming Languages:
+1. C#
+2. Java for Android
 
 
 IDE:
@@ -21,7 +8,43 @@ IDE:
 2. Jet Brains Toolbox (Android Studio)
 
 
+Code version control:
+1. Git
+2. GitHub
 
-Programming Languages:
-1. C#
-2. Java for Android
+
+Hosting:
+1. Linux
+
+
+
+CI/CD
+Pipeline:
+    Jenkins - pipeline for build, testing and deploy source code from GitHub
+    GoCD
+    GitHub Actions
+
+        Build:
+            NuGet
+            MSBuild
+            Maven
+            Gradle
+
+        Testing:
+            XUnit
+            Docker - one requirements
+
+        Publish artifact:
+            aptly
+            Artifactory
+            Pulp
+            Reposilite
+            Debian Package Repository Producer
+            Archiva
+            Sonatype Nexus Repository OSS
+            RhodeCode
+            Kallithea
+
+        Deploy:
+            Ansible - install environment and app
+            Ansistrano
