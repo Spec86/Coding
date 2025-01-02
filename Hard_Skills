@@ -34,7 +34,7 @@ Pipeline:
             XUnit
             Docker - one requirements
 
-        Publish artifact:
+        Publish artifact in repository:
             aptly
             Artifactory
             Pulp
@@ -46,7 +46,7 @@ Pipeline:
             Kallithea
 
         Deploy:
-            Ansible - install environment and app
+            Ansible - install environment. Install app from repository
             Ansistrano
 
 
