@@ -46,7 +46,7 @@ Pipeline:
             Kallithea
 
         Deploy:
-            Ansible - install environment. Install app from repository
+            Ansible - install environment. Install artifact from repository
             Ansistrano
 
 
