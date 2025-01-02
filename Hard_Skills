@@ -48,3 +48,7 @@ Pipeline:
         Deploy:
             Ansible - install environment and app
             Ansistrano
+
+
+
+Glossary: "Artifact" is concatenate "art" + "fact". Артефакт - это "исскуство" + "факт", т.е. факт деятельности человека. Исскуство свойственно только человеку, исскуственно созданный человеком предмет.
