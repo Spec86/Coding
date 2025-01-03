@@ -32,7 +32,7 @@ Presentation Layer
   - ViewModel (.cs)
 
 
-
+Model Layer
   - Model
       Application Service Layer
         - Use Cases
