@@ -63,7 +63,7 @@ Model Layer
           - Database, External Interfaces (шина сообщений)
 
 MVC
-  - View (Presentation layer)
-  - Controller (Взаимодействие) (Application services layer). Часто Controller является частью Presentation layer, но Application services layer остается на месте.
-  - Model (Entity + Business Logic + DTO) Domain layer
-          Data layer находится за пределами MVC, и общается через Application services layer с Domain layer
+  - View (PRESENTATION LAYER)
+  - Controller (Взаимодействие) (APPLICATION SERVICES LAYER). Часто Controller является частью Presentation layer, но Application services layer остается на месте.
+  - Model (Entity + Business Logic + DTO) (DOMAIN LAYER)
+          DATA LAYER находится за пределами MVC, и общается через Application services layer с Domain layer
