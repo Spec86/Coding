@@ -32,6 +32,21 @@ Presentation Layer
   - ViewModel (.cs)
 
 
-Domain Layer
-Infrastructure Layer
-Data Layer 
+
+  - Model
+      Application Service Layer
+        - Use Cases
+        - Interactor
+        - application services
+
+
+                                                    Domain Layer
+                                                    - domain services
+                                                    - Entities
+
+
+      Infrastructure Layer
+        Data Layer
+          - Repository (Data-Mapper)
+          - Adapters, Gateways
+          - Database, External Interfaces (шина сообщений)
