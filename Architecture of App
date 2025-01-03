@@ -28,12 +28,12 @@ MVC использует паттерн "Медиатр".
 
 WPF app
 Presentation Layer
-  - View (.xaml, .xaml.cs)
-  - ViewModel (.cs)
+  * View (.xaml, .xaml.cs)
+  * ViewModel (.cs)
 
 
 Model Layer
-  - Model
+  * Model
       Application Service Layer
         - Use Cases
         - Interactor
