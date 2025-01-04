@@ -39,6 +39,7 @@ Italian Traforetto = Web Form.
 Declarative syntax = Web Form.
 Declarative syntax = parameter and argument.
 
+
 Structure of file or document in Trafaretto style:
   - Boilerplate
   - Parameter and "empty place for argument"
@@ -46,7 +47,7 @@ Structure of file or document in Trafaretto style:
 
 
 
-Переменное среды = параметр и аргумент.
+Переменная среды = параметр и аргумент.
 
 
 Ошибки перехватывает компилятор. А исключения - это ошибки, которые не перехватываются компилятором. 
