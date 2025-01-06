@@ -66,4 +66,10 @@ There are 4 major principles that make an language Object Oriented. These are En
     Запись (record) - это строка (row).
     Ячейка (cell) - это Data Item (Value).
 
+    Field is container for records's cells (vertical orientation).
+    Record is container for fields's cells (horizontal orientation).
+
+    Field is container for many objects.
+    Record is container for one object with his many properties.
+
     ВПР - это PRIMARY KEY и FOREIGN KEY. 
