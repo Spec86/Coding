@@ -34,3 +34,14 @@ Imperative paradigm vs Declarative paradigm
 
 
 There are 4 major principles that make an language Object Oriented. These are Encapsulation, Data Abstraction, Polymorphism and Inheritance. These are also called as four pillars of Object Oriented Programming.
+
+
+Виды логик в программировании:
+    - параметр и аргумент.
+    - процедура (Sub procedure), не имеет возвращаемого значения, а изменяет состояние (status) объекта.
+    - функция (Function), имеет возвращаемое значение, не изменяет состояние объекта.
+
+    - метод void - это процедура.
+    - метод без void - это функция.
+
+    процедуры, функции и методы имеют параметры, куда передаются аргументы.
