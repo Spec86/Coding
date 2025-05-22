@@ -1,0 +1,17 @@
+Frontend: TypeScript, Vue.js.
+Backend: C#, ASP.NET Core, Entity Framework.
+DevOps: Webmin
+        Jenkins Pipeline
+                1. Build = MSBuild, NuGet.
+                2. Testing = XUnit, Docker.
+                3. Publish Artifact = aptly,
+                                      Artifactory,
+                                      Pulp,
+                                      Reposilite,
+                                      Debian Package Repository Producer,
+                                      Archiva,
+                                      Sonatype Nexus Repository OSS,
+                                      RhodeCode,
+                                      Kallithea.                               
+                4. Deploy = Ansible.
+Mobile app development: Java For Android.
