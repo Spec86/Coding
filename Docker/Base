@@ -1,0 +1,5 @@
+1. Dockerfile
+2. Docker-compose.yaml
+3. В терминале пишем "docker compose up"
+4. У нас создается Image и запускается Container
+5. Внутри работающего контейнера выполняем команды Linux. Для этого в терминале пишем "docker exec -i -t name-container sh"
