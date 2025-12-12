@@ -1,0 +1,93 @@
+📘 Таблица соответствий ADT → структуры данных для Python, C#, Java, Kotlin, VBA.
+Легенда:
+
+    ADT — абстрактный тип данных (поведение)
+    структура данных — реальная реализация
+    ❌ — отсутствует в стандартной библиотеке
+    ⭐ — рекомендованная реализация
+
+
+✅ 1. Sequences (Последовательности)
+| ADT                                         | Python                  | C#                                      | Java          | Kotlin             | VBA                   |
+| ------------------------------------------- | ----------------------- | --------------------------------------- | ------------- | ------------------ | --------------------- |
+| **Mutable Sequence**                        | `list` ⭐               | `List<T>` ⭐                           | `ArrayList` ⭐ | `MutableList<T>` ⭐ | `Collection`, `Array`|
+| **Immutable Sequence**                      | `tuple`, `bytes`, `str` | `ImmutableList<T>`, `ImmutableArray<T>` | `List.of()`   | `listOf()`         | ❌                    |
+| **Fixed-size Indexable Array**              | `array.array`           | `Array`                                 | `Array`       | `Array<T>`         | `Array`               |
+| **Deque (двусторонняя последовательность)** | `collections.deque`     | ❌                                      | `ArrayDeque`  | `ArrayDeque`       | ❌                   |
+
+
+
+✅ 2. Set Types (Множества)
+| ADT                       | Python      | C#                    | Java            | Kotlin             | VBA |
+| ------------------------- | ----------- | --------------------- | --------------- | ------------------ | --- |
+| **Unordered Set**         | `set`       | `HashSet<T>`          | `HashSet`       | `HashSet<T>`       | ❌   |
+| **Immutable Set**         | `frozenset` | `ImmutableHashSet<T>` | `Set.of()`      | `setOf()`          | ❌   |
+| **Insertion Ordered Set** | ❌          | ❌                   | `LinkedHashSet` | `LinkedHashSet<T>` | ❌   |
+| **Sorted Set**            | ❌          | `SortedSet<T>`        | `TreeSet`      | `SortedSet<T>`      | ❌   |
+
+
+✅ 3. Mappings (Словари / ассоциативные массивы)
+| ADT                | Python        | C#                                  | Java                | Kotlin                   | VBA                    |
+| ------------------ | ------------- | ----------------------------------- | ------------------- | ------------------------ | ---------------------- |
+| **Hash Table Map** | `dict` ⭐     | `Dictionary<K,V>` ⭐               | `HashMap` ⭐        | `HashMap<K,V>` ⭐       | `Scripting.Dictionary` |
+| **Ordered Map**    | `OrderedDict` | ❌ (в новых .NET Dictionary ordered)| `LinkedHashMap`     | `LinkedHashMap<K,V>`     | ❌                    |
+| **Sorted Map**     | ❌            | `SortedDictionary<K,V>`             | `TreeMap`           | `SortedMap<K,V>`         | ❌                    |
+| **Immutable Map**  | ❌            | `ImmutableDictionary<K,V>`          | `Map.of()`          | `mapOf()`                | ❌                    |
+| **Concurrent Map** | ❌            | `ConcurrentDictionary<K,V>`         | `ConcurrentHashMap` | `ConcurrentHashMap<K,V>` | ❌                    |
+
+
+
+✅ 4. Queue Types (Очереди FIFO)
+| ADT                  | Python                             | C#                      | Java                       | Kotlin                     | VBA          |
+| -------------------- | ---------------------------------- | ----------------------- | -------------------------- | -------------------------- | ------------ |
+| **Queue (FIFO)**     | `collections.deque`, `queue.Queue` | `Queue<T>`              | `LinkedList`, `ArrayDeque` | `ArrayDeque<T>`            | Custom class |
+| **Blocking Queue**   | `queue.Queue`                      | `BlockingCollection<T>` | `BlockingQueue`            | `BlockingQueue<T>`         | ❌           |
+| **Concurrent Queue** | ❌                                 | `ConcurrentQueue<T>`    | `ConcurrentLinkedQueue`    | `ConcurrentLinkedQueue<T>` | ❌          |
+
+
+✅ 5. Priority Queue (Очереди с приоритетом)
+| ADT                       | Python                   | C#                           | Java            | Kotlin             | VBA             |
+| ------------------------- | ------------------------ | ---------------------------- | --------------- | ------------------ | --------------- |
+| **Priority Queue (Heap)** | `heapq`, `PriorityQueue` | `PriorityQueue<T,TPriority>` | `PriorityQueue` | `PriorityQueue<T>` | ❌ (ручная куча)|
+
+
+✅ 6. Stack Types (LIFO)
+| ADT                   | Python                       | C#         | Java           | Kotlin          | VBA          |
+| --------------------- | ---------------------------- | ---------- | -------------- | --------------- | ------------ |
+| **Stack**             | `list` (append/pop), `deque` | `Stack<T>` | `ArrayDeque` ⭐| `ArrayDeque<T>` | Custom class |
+| **Thread-Safe Stack** | ❌                          | ❌         | ❌             | ❌              | ❌          |
+
+
+✅ 7. Tree Types (деревья)
+| ADT                          | Python  | C#                                      | Java                        | Kotlin                           | VBA |
+| ---------------------------- | ------- | --------------------------------------- | --------------------------- | -------------------------------- | --- |
+| **Binary Search Tree (BST)** | ❌      | ❌                                     | ❌                          | ❌                              | ❌   |
+| **Balanced Tree (RB-tree)**  | ❌      | `SortedSet<T>`, `SortedDictionary<K,V>` | `TreeSet`, `TreeMap`        | `SortedSet<T>`, `SortedMap<K,V>` | ❌   |
+| **Trie (Prefix Tree)**       | ❌      | ❌                                     | ❌                          | ❌                              | ❌   |
+| **Heap**                     | `heapq` | internal in `PriorityQueue`             | internal in `PriorityQueue` | internal                         | ❌   |
+
+
+✅ 8. Graph Types (графы)
+| ADT                    | Python           | C#                 | Java         | Kotlin                  | VBA                      |
+| ---------------------- | ---------------- | ------------------ | ------------ | ----------------------- | ------------------------ |
+| **Graph (абстракция)** | ❌               | ❌                | ❌           | ❌                     | ❌                       |
+| **Adjacency List**     | `dict: list`     | `Dictionary: List` | `Map: List`  | `MutableMap<T,List<T>>` | `Dictionary: Collection` |
+| **Adjacency Matrix**   | `list of list`   | `[,]`              | `int[][]`    | `Array<IntArray>`       | `2D Array`               |
+| **Edge List**          | `list of tuples` | `List<(T,T)>`      | `List<Edge>` | `List<Pair<T,T>>`       | `Collection`             |
+
+
+🎯 Итоговые выводы
+🐍 Python
+Самый гибкий язык для коллекций → удобно, минималистично.
+
+🟦 C#
+Лучше всего для промышленного использования → concurrent & immutable коллекции, хорошие sorted структуры.
+
+☕ Java
+Официальные дерева (TreeMap, TreeSet) — топ для структур.
+
+💜 Kotlin
+Всё Java + удобный синтаксис + неизменяемые коллекции по умолчанию.
+
+📘 VBA
+Самый ограниченный — нет множества, очередей, деревьев, графов.
