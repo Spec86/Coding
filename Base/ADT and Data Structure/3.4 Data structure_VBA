@@ -1,0 +1,46 @@
+VBA — ADT → Data Structures
+
+Абстрактные типы данных (ADT)
+│
+├── 1. Sequences — ADT
+│
+│   Реализации:
+│   ├── Array — массив (фиксированный / динамический)
+│   └── Collection — коллекция (динамическая, но без индексации)
+│
+├── 2. Set Types — ADT
+│       Нет встроенного множества.
+│       Возможные реализации:
+│       ├── Scripting.Dictionary с фиктивными значениями
+│       └── Custom class Set (через Collection + проверка ключей)
+│
+├── 3. Mapping Types (Словари) — ADT
+│
+│       Реализации:
+│       └── Scripting.Dictionary — хеш-таблица (через COM)
+│
+├── 4. Queue Types (Очереди) — ADT
+│       Реализации (ручные):
+│       ├── Queue class (через Collection)
+│       └── ArrayQueue (сдвиг массива)
+│
+├── 5. Stack Types — ADT
+│       Реализации:
+│       ├── Stack class (через Collection)
+│       └── ArrayStack
+│
+├── 6. Priority Queue Types — ADT
+│       Нет встроенных.
+│       Реализация:
+│       └── Custom Binary Heap (через массив)
+│
+├── 7. Tree Types — ADT
+│       Нет встроенных.
+│       Реализации:
+│       ├── Custom Binary Tree (класс Node)
+│       └── Custom Trie (класс Node)
+│
+└── 8. Graph Types — ADT
+        Реализации:
+        ├── Adjacency List (Dictionary of Collections)
+        └── Edge List (Collection)
