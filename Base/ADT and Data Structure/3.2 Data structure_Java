@@ -1,0 +1,62 @@
+Java — ADT → Data Structures
+
+Абстрактные типы данных (ADT)
+│
+├── 1. Sequences (Последовательности) — ADT
+│
+│   ├── Mutable Sequences — ADT
+│   │       Реализации:
+│   │       ├── ArrayList — динамический массив
+│   │       ├── LinkedList — двусвязный список
+│   │       ├── Vector — динамический массив (synchronized)
+│   │       └── Stack — устаревшая реализация стека
+│   │
+│   └── Immutable Sequences — ADT
+│           Реализации:
+│           └── List.of(...) — неизменяемый список (Java 9+)
+│
+├── 2. Set Types (Множества) — ADT
+│
+│       Реализации:
+│       ├── HashSet — хеш-таблица
+│       ├── LinkedHashSet — порядок вставки (hash + linked list)
+│       └── TreeSet — красно-чёрное дерево
+│
+├── 3. Mapping Types (Словари) — ADT
+│
+│       Реализации:
+│       ├── HashMap — хеш-таблица
+│       ├── LinkedHashMap — порядок вставки
+│       ├── TreeMap — красно-чёрное дерево
+│       ├── ConcurrentHashMap — потокобезопасный hashmap
+│       └── Hashtable — устаревшая потокобезопасная версия
+│
+├── 4. Queue Types (FIFO) — ADT
+│
+│       Реализации:
+│       ├── ArrayDeque — двусторонняя очередь
+│       ├── LinkedList — очередь на связном списке
+│       ├── PriorityQueue — очередь с приоритетами (min-heap)
+│       ├── ConcurrentLinkedQueue — lock-free очередь
+│       └── ArrayBlockingQueue / LinkedBlockingQueue
+│
+├── 5. Stack Types (LIFO) — ADT
+│       Реализации:
+│       ├── ArrayDeque — современный стек
+│       └── Stack — устаревший стек
+│
+├── 6. Priority Queue Types — ADT
+│       Реализации:
+│       └── PriorityQueue — бинарная куча
+│
+├── 7. Tree Types — ADT
+│       Реализации:
+│       ├── TreeMap — красно-чёрное дерево
+│       └── TreeSet — красно-чёрное дерево
+│
+└── 8. Graph Types — ADT
+        Нет в стандартной библиотеке.
+        Типичные реализации:
+        ├── adjacency list — Map<Vertex, List<Vertex>>
+        ├── adjacency matrix — 2D array
+        └── edge list — список рёбер
