@@ -1,0 +1,14 @@
+ADT (Abstract Data Type) (Типы данных):
+  1. Sequence (Последовательность)
+      - Mutable (Изменяемое)
+      - Immutable (Неизменяемое)
+
+  2. Set (Множество)
+
+  3. Mapping (Отображение) → Dictionary (Словарь)
+
+  4. Queue (Очередь) -> FIFO
+
+  5. Priority Queue (Очередь с приоритетами) -> HIFO
+
+  6. Stack (Стек) -> LIFO
