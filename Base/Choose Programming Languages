@@ -1,3 +1,19 @@
-1. Backend: Java -> Tomcat (Spring Boot (WAR))
-2. Frontend: Typescript -> Vue.js
-3. Mobile: Java/Kotlin -> Android
+1. Devops (scripting):
+      YAML -> Ansible
+      bash -> Ubuntu/Debian
+      Python -> Ubuntu/Debian
+      Groovy -> Jenkins (CI/CD)
+2. CMS: no-code -> Wordpress
+3. Backend: Java -> Tomcat (Spring Boot (WAR))
+4. Frontend: Typescript -> Vue.js
+5. Mobile: Java/Kotlin -> Android
+6. Scripting:
+      VBA, VBScript, Powershell, Autoit -> Windows
+      Python -> Windows/Linux
+7. Gamedev: C# -> Unity
+
+
+Conclusion:
+      no-code (Wordpress)
+      Java (Tomcat/Android)
+      Typescript (Vue.js)
