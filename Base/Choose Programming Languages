@@ -7,10 +7,11 @@
 3. Backend: Java -> Tomcat (Spring Boot (WAR))
 4. Frontend: Typescript -> Vue.js
 5. Mobile: Java/Kotlin -> Android
-6. Scripting:
+6. Desktop: C# -> Windows (WPF)
+7. Scripting (RPA):
       VBA, VBScript, Powershell, Autoit -> Windows
       Python -> Windows/Linux
-7. Gamedev: C# -> Unity
+8. Gamedev: C# -> Unity
 
 
 Conclusion:
