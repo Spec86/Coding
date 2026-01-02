@@ -19,8 +19,10 @@ Outsiders:
       C# (only Desktop and GameDev)
 
 Conclusion:
-      no-code (Wordpress)
-      Java (Tomcat/Android)
-      Typescript (Vue.js)
+      1. Payment Gateway
+            no-code (Wordpress)
+      2. Payment Gateway
+            Java (Tomcat/Android)
+            Typescript (Vue.js)
 
 
