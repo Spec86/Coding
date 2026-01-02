@@ -11,10 +11,16 @@
 7. Scripting (RPA):
       VBA, VBScript, Powershell, Autoit -> Windows
       Python -> Windows/Linux
-8. Gamedev: C# -> Unity
+8. GameDev: C# -> Unity
 
+
+Outsiders:
+      Python (only scripting)
+      C# (only Desktop and GameDev)
 
 Conclusion:
       no-code (Wordpress)
       Java (Tomcat/Android)
       Typescript (Vue.js)
+
+
