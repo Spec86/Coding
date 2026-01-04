@@ -4,19 +4,19 @@
       Python -> Ubuntu/Debian
       Groovy -> Jenkins (CI/CD)
 2. CMS: no-code -> Wordpress
-3. Backend: Java -> Tomcat (Spring Boot (WAR))
-4. Frontend: Typescript -> Vue.js
-5. Mobile: Java/Kotlin -> Android
-6. Desktop: C# -> Windows (WPF)
-7. GameDev: C# -> Unity
-8. Scripting (Office RPA):
+3. Backend (http and https castle): Java -> Tomcat (Spring Boot (WAR))
+4. Backend (localhost Docker internal Ubuntu Server process in VPS): Python -> AI, ML, parsing, libs on Python
+5. Frontend: Typescript -> Vue.js
+6. Mobile: Java/Kotlin -> Android
+7. Desktop: C# -> Windows (WPF)
+8. GameDev: C# -> Unity
+9. Scripting (Office Desktop RPA):
       VBA, VBScript, Powershell, Autoit -> Windows
       Python -> Windows/Linux
 
 
 Conclusion
       Outsiders:
-            Python (only scripting)
             C# (only Desktop and GameDev)
       Leaders:
             1. Payment Gateway
@@ -24,3 +24,4 @@ Conclusion
             2. Payment Gateway
                   Java (Tomcat/Android)
                   Typescript (Vue.js)
+                  Python (scripting/use libs into Backend)
