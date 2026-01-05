@@ -5,7 +5,7 @@
       Groovy -> Jenkins (CI/CD)
 2. CMS: no-code -> Wordpress
 3. Backend (http and https castle): Java -> Tomcat (Spring Boot (WAR))
-4. Backend (Glue-layer with localhost Docker): Python -> AI, ML, libs for parsing and etc.
+4. Backend (Glue-layer with localhost Docker): Python -> Flask (AI, ML, libs for parsing and etc.)
 5. Frontend: Typescript -> Vue.js
 6. Mobile: Java/Kotlin -> Android
 7. Desktop: C# -> Windows (WPF)
@@ -19,9 +19,11 @@ Conclusion
       Outsiders:
             C# (only Desktop and GameDev)
       Leaders:
-            1. Payment Gateway
-                  no-code (Wordpress)
+            1. No Payment Gateway
+                  Apache (Flat-file CMS)
             2. Payment Gateway
+                  no-code (Wordpress)
+            3. Payment Gateway
                   Java (Tomcat/Android)
                   Typescript (Vue.js)
-                  Python (scripting/glue language)
+                  Python (scripting/glue language Flask + Docker)
