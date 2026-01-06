@@ -34,7 +34,7 @@ Apache -> PHP-FPM -> Wordpress (PHP)
 Apache -> Tomcat -> Spring (Java)
 Apache -> mod_wsgi -> web2py (Python)
 
-1. Linux
+1. Linux, Webmin
    Apache, Flat-file CMS (Statamic or Grav or Typemill)
 
 2. Linux, MySQL.
