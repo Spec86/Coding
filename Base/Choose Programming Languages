@@ -27,3 +27,19 @@ Conclusion
                   Java (Tomcat/Android)
                   Typescript (Vue.js)
                   Python (scripting/glue language Flask + Docker)
+
+
+
+Apache -> PHP-FPM -> Wordpress (PHP)
+Apache -> Tomcat -> Spring (Java)
+Apache -> mod_wsgi -> web2py (Python)
+
+
+1. Linux, MySQL.
+   Apache, Wordpress, PHP
+
+2. Linux, MySQL, Vue.js, Typescript
+   Apache, Tomcat, Java, Spring
+
+3. Linux, MySQL, Vue.js, Typescript
+   Apache, Python, web2py
