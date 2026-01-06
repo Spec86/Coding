@@ -42,6 +42,8 @@ Apache -> mod_wsgi -> web2py (Python)
 
 3. Ubuntu Server, MySQL, Vue.js, Typescript
    Apache, Tomcat, Java, Spring
+   Docker (localhost), Flask (Glue-слой)
 
 4. Ubuntu Server, MySQL, Vue.js, Typescript
    Apache, Python, web2py
+   Docker (localhost), Flask (Glue-слой)
