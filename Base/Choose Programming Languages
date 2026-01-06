@@ -34,14 +34,14 @@ Apache -> PHP-FPM -> Wordpress (PHP)
 Apache -> Tomcat -> Spring (Java)
 Apache -> mod_wsgi -> web2py (Python)
 
-1. Linux, Webmin
+1. Ubuntu Server, Webmin
    Apache, Flat-file CMS (Statamic or Grav or Typemill)
 
-2. Linux, MySQL.
+2. Ubuntu Server, MySQL.
    Apache, Wordpress, PHP
 
-3. Linux, MySQL, Vue.js, Typescript
+3. Ubuntu Server, MySQL, Vue.js, Typescript
    Apache, Tomcat, Java, Spring
 
-4. Linux, MySQL, Vue.js, Typescript
+4. Ubuntu Server, MySQL, Vue.js, Typescript
    Apache, Python, web2py
