@@ -48,3 +48,6 @@ Apache -> mod_wsgi -> web2py (Python)
    Apache, Python, web2py
    (Don't use Glue-layer)
 
+5. Ubuntu Server, MySQL, Vue.js, Typescript
+   Apache, Python, Bottle.py
+   (Don't use Glue-layer)
