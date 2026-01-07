@@ -49,5 +49,4 @@ Apache -> mod_wsgi -> web2py (Python)
    (Don't use Glue-layer)
 
 5. Ubuntu Server, MySQL, Vue.js, Typescript
-   Apache, Python, Bottle.py
-   (Don't use Glue-layer)
+   Apache, Python, Bottle.py, RabbitMQ, Flask, Docker (localhost)
