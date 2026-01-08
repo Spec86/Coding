@@ -1,32 +1,25 @@
 1. Devops (scripting):
       YAML -> Ansible
-      bash -> Ubuntu/Debian
-      Python -> Ubuntu/Debian
+      bash -> Ubuntu Server/Debian Server
+      Python -> Ubuntu Server/Debian Server
       Groovy -> Jenkins (CI/CD)
 2. CMS: no-code -> Wordpress
 3. Backend (http and https castle): Java -> Tomcat (Spring Boot (WAR))
 4. Backend (Glue-layer with localhost Docker): Python -> Flask (AI, ML, libs for parsing and etc.)
 5. Frontend: Typescript -> Vue.js
-6. Mobile: Java/Kotlin -> Android
-7. Desktop: C# -> Windows (WPF)
-8. GameDev: C# -> Unity
-9. Scripting (Office Desktop RPA):
-      VBA, VBScript, Powershell, Autoit -> Windows
-      Python -> Windows/Linux
+
 
 
 Conclusion
-      Outsiders:
-            C# (only Desktop and GameDev)
       Leaders:
             1. No Payment Gateway
                   Apache (Flat-file CMS)
             2. Payment Gateway
                   no-code (Wordpress)
             3. Payment Gateway
-                  Java (Tomcat/Android)
+                  Java (Tomcat)
                   Typescript (Vue.js)
-                  Python (scripting/glue language Flask + Docker)
+                  Python (server scripting/glue language Flask + Docker)
 
 
 
