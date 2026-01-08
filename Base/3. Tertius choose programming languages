@@ -2,11 +2,11 @@ Scripting (Office Desktop RPA):
 
 
 Windows:
-  VBA
-  VBScript
-  Powershell
-  Autoit
+  1. VBA
+  2. VBScript
+  3. Powershell
+  4. Autoit
 
 
 Windows/Linux
-  Python
+  1. Python
