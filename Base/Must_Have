@@ -1,0 +1,52 @@
+Staging local computer:
+1. Ubuntu Server (Install with monitor; Use without monitor (cable net only)).
+2. Router -> Static IP for Ubuntu Server.
+3. Webmin.
+4. Web-server Apache.
+5. Tomcat.
+
+
+
+
+GitHub (the cloud):
+    - Code.
+
+
+
+
+DevOps local computer:
+1. Ansible.
+2. Jenkins (artifacts).
+
+
+
+
+Prod VPS (the cloud):
+1. Webmin.
+
+
+
+
+Dev computer:
+1. IDE:
+    - Eclipse
+    - Visual Studio
+2. Rational XDE.
+3. Videocard NVIDIA 5070ti.
+4. Local AI-agent.
+
+5. Backend:
+    - Spring
+    - web2py
+
+6. Frontend:
+    - Vue.js
+
+7. Stable Diffusion:
+    - AUTOMATIC1111
+    - ReForge
+    - ComfyUI
+
+8. Generative Imaging:
+    - Processing
+    - p5.js
