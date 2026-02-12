@@ -50,3 +50,13 @@ Dev computer:
 8. Generative Imaging:
     - Processing
     - p5.js
+
+
+
+
+Sequence:
+1. Dev local computer.
+2. GitHub (the cloud).
+3. DevOps local computer.
+4. Staging local computer.
+5. Prod VPS (the cloud).
